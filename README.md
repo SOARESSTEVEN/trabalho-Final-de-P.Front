@@ -5,5 +5,6 @@ Tecnologias utilizadas:
 javaScript,
 React(jsx),
 css,
-Para roda-lo acesse a pasta ,depois "npm run dev", 
+Para roda-lo acesse a pasta ,depois "npm run dev".
+
 
