@@ -15,7 +15,7 @@ const Item = ({ contact, editContact, deleteContact }) => {
     return (
         
         <li className='listaContatos'>
-            <span>{contact.name}</span>
+            <span>{contact.nome}</span>
             <button onClick={() => setModalOpen(true)}>Ver</button>
             <button onClick={() => deleteContact(contact.id)}>Deletar</button>
             {isModalOpen && (

@@ -28,7 +28,7 @@ const App = () => {
             <h1>Gerenciamento de Contatos</h1>
             <Form addContact={addContact} />
             {contacts.length === 0 ? (
-                <p>Nenhum contato cadastrado.</p>
+                <p>Sem contatos.</p>
             ) : (
                 <List contacts={contacts} editContact={editContact} deleteContact={deleteContact} />
             )}
